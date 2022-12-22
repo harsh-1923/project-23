@@ -1,0 +1,26 @@
+.people-badge-wrapper{
+    min-width: 80px;
+    margin-right: 10px;
+}
+
+.people-badge-avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.people-badge-detail-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.people-badge-name{
+    color: var(--primary-white);
+}
+
+.people-badge-amount{
+    margin-top: 5px;
+    font-size: 16px;
+}

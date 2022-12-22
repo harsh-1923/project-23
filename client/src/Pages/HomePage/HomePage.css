@@ -1,0 +1,83 @@
+.homepage-wrapper{
+    padding: 20px;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.user-details-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    min-height: 80px;
+    color: var(--primary-white);
+    margin-bottom: 10px;
+    position: Sticky;
+    z-index: 1000;
+}
+
+.user-name{
+    font-size: 24px;
+}
+
+.user-email{
+    color: var(--secondary-white);
+}
+
+.user-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+.amount-details-wrapper{
+    background-color: var(--secondary-dark);
+    width: 100%;
+    color: var(--primary-white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.amount-details-title{
+    color: var(--secondary-white);
+}
+
+.amount-details-value{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-green);
+}
+
+.label-primary{
+    color: var(--primary-white);
+    font-size: 20px;
+}
+
+.people-list-wrapper{
+    display: flex;
+    padding: 20px 0px;
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.people-list-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.label-options{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.option{
+    margin-left: 10px;
+}

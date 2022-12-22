@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overscroll-behavior-y: none;
     font-family: "Unbounded", "Poppins";
 }
 
@@ -12,11 +12,13 @@
     --primary-dark: #0E0E0E;
     --secondary-dark: #141414;
 
+    --primary-white: white;
+    --secondary-white: rgb(120, 120, 120);
+
     --primary-blue: #3b45f1;
     --primary-pink: #FF375F;
+    --primary-green: #ADDF85;
 }
-.title{
-    background-color: black;
-    height: 100vh;
-}
+
+
 

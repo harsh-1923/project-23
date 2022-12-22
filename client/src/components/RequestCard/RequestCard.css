@@ -1,0 +1,54 @@
+.request-card-wrapper{
+    background-color: var(--secondary-dark);
+    width: 100%;
+    min-height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.request-card-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.request-card-requestby{
+    color: var(--primary-green);
+}
+
+.request-card-part1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.request-card-part2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.request-card-detail-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.request-card-paynow{
+    background-color: var(--primary-pink);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.request-card-pntext{
+    font-size: 10px;
+}

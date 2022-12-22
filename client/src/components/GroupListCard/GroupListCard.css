@@ -1,0 +1,17 @@
+.group-list-card-wrapper{
+    padding: 10px;
+    color: var(--primary-white);
+    width: 100%;
+    height: 150px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color: var(--primary-blue);
+}
+
+.group-name{
+    font-size: 30px;
+}
+
+.group-amount{
+    color: var(--primary-dark)
+}
