@@ -1,0 +1,94 @@
+.GenerateRequestPage-wrapper {
+  background-color: black;
+  height: 100vh;
+  padding-top: 30px;
+  color: white;
+}
+
+.icon {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.generate-request-row-2 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+.generate-request-label {
+  color: var(--secondary-white);
+}
+
+.generate-request-name {
+  margin-top: 5px;
+}
+
+.generate-request-currency-wrapper {
+  padding: 5px 20px;
+  border-radius: px;
+  margin-top: 20px;
+  color: var(--primary-white);
+  background-color: var(--secondary-dark);
+}
+
+.generate-request-row-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-dark);
+  padding: 20px;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.generate-request-input {
+  background-color: var(--secondary-dark);
+  border: none;
+  color: var(--primary-white);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  font-size: 20px;
+  width: 60%;
+}
+
+.generate-request-button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  /* font-size: 16px; */
+  font-weight: bold;
+  background-color: var(--primary-pink);
+}
+
+.generate-request-numpad-wrapper {
+  /* border: 1px solid pink; */
+  padding: 20px;
+  background-color: var(--secondary-dark);
+  height: 100%;
+}
+
+.generate-request-numpad-row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.key {
+  height: 80px;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid green; */
+  font-weight: 700;
+  font-size: 24px;
+  background-color: var(--secondary-dark);
+  border: none;
+  color: var(--primary-white);
+}
